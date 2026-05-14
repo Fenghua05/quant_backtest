@@ -1,0 +1,81 @@
+# --------------------------
+# Python 通用忽略项
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --------------------------
+# 虚拟环境（必须忽略！）
+# --------------------------
+venv/
+.venv/
+env/
+.env/
+
+# --------------------------
+# IDE和编辑器
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --------------------------
+# 量化回测项目专属忽略项
+# --------------------------
+# 原始数据和中间数据（体积大，不需要版本控制）
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.pickle
+data/*.h5
+data/*.db
+
+# 回测结果和报告
+results/
+output/
+logs/
+*.html
+*.pdf
+*.png
+*.jpg
+
+# 配置文件（包含密码、API密钥等敏感信息）
+config.ini
+config.yaml
+.env
+secrets.py
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# AI助手本地配置
+.claude/
+.cursor/
+.dev/
+
+# 个人工作文件
+工作日志.md
+笔记.md
+TODO.md
