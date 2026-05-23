@@ -88,3 +88,11 @@ rqdatac.init("your_token")
 - numpy
 - matplotlib
 - rqdatac
+
+## 待改进的方向
+
+1.用数据库替代CSV
+2.增加滑点
+3.多因子选股
+4.事件驱动
+5.参数优化（网格搜索）
